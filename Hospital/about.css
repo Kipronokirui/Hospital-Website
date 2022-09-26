@@ -1,0 +1,70 @@
+h2{
+    color: #3e8d9f;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+.about-intro{
+    padding-top: 15vh;
+    /* background-color: #3e8d9f; */
+    background-image:url('./images/horiz1.jpg');
+    /* opacity: 0.6; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.about-intro h2{
+    font-size: 40px;
+    color: rgb(22, 38, 185);
+    /* color: green; */
+    padding-top: 30px;
+    text-decoration: none;
+    /* background: transparent; */
+    /* opacity: 1; */
+}
+.about-intro .pr{
+    font-size: 25px;
+    color: white;
+    /* color: green; */
+    /* color: rgb(2, 26, 243); */
+    opacity: 1;
+    
+}
+.about-intro .abt{
+    font-size: 30px;
+    /* color: white; */
+    color: rgb(22, 38, 185);
+    opacity: 1;
+}
+.history h2{
+    font-size: 30px;
+    padding-left: 50px;
+}
+.history p{
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-family: sans-serif;
+}
+.who-we-are h2{
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.who-we-are p{
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-family: sans-serif;
+}
+.mission h2, .vision h2{
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.mission p, .vision p{
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-family: sans-serif;
+}

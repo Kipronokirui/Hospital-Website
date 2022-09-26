@@ -1,0 +1,48 @@
+.about-services{
+    width: 100%;
+    padding-top: 19vh;
+    /* background-color: #66b3ff; */
+    background-color: #00264d;
+}
+.intro{
+    text-align: center;
+}
+.intro h2{
+    font-size:20px;
+    color: white;
+}
+.intro p{
+    font-size:14px;
+    color: white;
+}
+.laboratory{
+    padding-left: 40px;
+    font-size: 14px;
+}
+.laboratory h2{
+    color: #0000ff;
+}
+.laboratory ul{
+    padding-left:60px;
+    color: #0000ff;
+}
+.consultation{
+    padding-left: 40px;
+    font-size: 14px;
+    /* padding-top: 5px; */
+}
+.consultation h2{
+    color: #0000ff;
+}
+.other-services{
+    padding-left: 40px;
+    font-size: 14px;
+}
+.other-services h2{
+    color: #0000ff;
+}
+.other-services ul{
+    padding-left:60px;
+    color: #0000ff;
+    /* color: #006600; */
+}

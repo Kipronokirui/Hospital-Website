@@ -1,0 +1,45 @@
+#quality {
+    /* border: 2px dashed #444;  */
+    height : 100px;
+    text-align: justify;
+    /* -ms-text-justify: distribute-all-lines; */
+    /* text-justify: distribute-all-lines; */
+    width:100%;
+    min-width: 612px;
+    padding-left: 30px;
+    padding-top: 10px;
+    /* width:61px; */
+  } 
+  
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 14%;
+    height: 100%;
+    /* vertical-align: top; */
+    display: inline-block;
+    /* *display: inline; */
+    /* zoom: 1 */
+    text-align: center;
+    padding-top: 25px;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+  
+  .stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+  }
+  
+  .box1,
+  .box3 {
+    background: #ccc
+  }
+  
+  .box2,
+  .box4 {
+    background: #0ff
+  }

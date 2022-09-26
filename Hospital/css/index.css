@@ -1,0 +1,122 @@
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+    }
+    #mainNavbar {
+    padding-left: 50px;
+    padding-top: 20px
+    }
+    .navbar-dark .navbar-brand {
+    font-family: 'Source Serif Pro', serif
+    }
+    .navbar-nav .nav-link {
+    font-family: 'Source Serif Pro', serif
+    }
+    .display-4 {
+    font-family: 'Source Serif Pro', serif
+    }
+    .lead {
+    font-family: 'Source Serif Pro', serif
+    }
+    .navbar.scrolled {
+    background: rgb(34, 31, 31);
+    transition: background 500ms
+    }
+    .font-weight-light {
+    font-family: 'Source Serif Pro', serif
+    }
+    /* css carrying the three divs placed next to each other starts */
+    /* Create three equal columns that floats next to each other */
+    .three{
+        padding-left:100px;
+        padding-right:100px;
+        padding-top:10px;
+        /* padding-top: 10px; */
+        /* justify-content: space-between; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(40rem, 5fr));
+        gap: 2rem;
+    }
+    .openings {
+        height: 230px; /* Should be removed. Only for demonstration */
+        /* width: 450px; */
+        border-radius: 10px;
+    }
+    
+    .openings .pn{
+        width: 140px;
+        height: 30px;
+        background: blue;
+        border: none;
+        /* margin-top: 0.1px; */
+        text-align: center;
+        margin-left: 40%;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition-timing-function: 0.4s ease;
+    }
+
+    .openings .pn:hover{
+        background: cyan;
+    }
+    /* Clear floats after the columns */
+    .three:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .openings {
+        width: 100%;
+        }
+    }
+     /* css carrying the three divs placed next to each other ends */
+    /* Opening hours css starts */
+    /* Container for flexboxes */
+.opening {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create four equal columns */
+  .hours {
+    flex: 50%;
+    padding: 20px;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .hours {
+      flex: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .opening {
+      flex-direction: column;
+    }
+  }
+    /* Opening hours css ends */
+.helping{
+    height: 500px;
+    background-color: white;
+}
+.hospital-icons i{
+    display: inline-block;
+    float:left;
+    text-align: center;
+    padding-left: 150px;
+    /* padding-right:60px; */
+}
+.family{
+  text-align: center;
+}
